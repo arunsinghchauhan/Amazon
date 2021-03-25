@@ -69,7 +69,7 @@ public class TestBase {
 	
 	public void launchApplication()
 	{
-		String appUrl=prop.getProperty("url");
+		String appUrl=prop.getProperty("arun");
 		driver.get(appUrl);
 		TestUtil.log("[INFO]: Product URL :::: " + appUrl);
 	}
